@@ -1,0 +1,31 @@
+.text-container{
+    /*border: 1px solid black;*/
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}   
+
+.image-button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+}
+
+.image-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
